@@ -12,7 +12,7 @@
 body{font-family:'Poppins',sans-serif;background:var(--muted);color:var(--text);margin:0;line-height:1.5}
 .container{max-width:1000px;margin:0 auto;padding:24px}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
-.brand{display:flex;align-items:center;text-decoration:none;color:inherit}
+.brand{display:flex;align-items:center;text-decoration:none;color:black}
 .logo{width:72px;height:72px;object-fit:contain;border-radius:10px;margin-right:12px;background:white;padding:6px;box-shadow:0 6px 18px rgba(20,30,40,0.06)}
 .brand-text h1{margin:0;font-size:20px;letter-spacing:0.2px}
 .tagline{margin:2px 0 0;font-size:13px;color:#606b73}
