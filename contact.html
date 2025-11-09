@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EquiParental — Soutien en parentalité</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="EquiParental logo" class="logo">
+        <div class="brand-text">
+          <h1>EquiParental</h1>
+          <p class="tagline">Soutien en parentalité — Claire Chevalier</p>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="button small">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+<section class="section container contact">
+  <h2>Contact</h2>
+  <p>Contactez-moi pour prendre rendez-vous ou pour un premier échange offert.</p>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>Coordonnées</h3>
+      <p><strong>Téléphone :</strong> 06 71 20 44 39<br>
+      <strong>Email :</strong> <a href="mailto:equiparental@outlook.fr">equiparental@outlook.fr</a><br>
+      <strong>Site :</strong> <a href="http://www.equiparental.fr" target="_blank" rel="noopener">www.equiparental.fr</a></p>
+      <p>Retrouvez EquiParental sur <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a> pour suivre l'actualité et des ressources.</p>
+    </div>
+    <div class="contact-card">
+      <h3>Envoyer un message</h3>
+      <form action="https://formsubmit.co/equiparental@outlook.fr" method="POST">
+        <!-- Using formsubmit.co for direct email delivery; to use Formspree replace the action with your Formspree endpoint. -->
+        <label for="name">Nom</label>
+        <input id="name" name="Nom" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="Email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" rows="6" required></textarea>
+        <!-- Redirect after submit -->
+        <input type="hidden" name="_next" value="https://equiparental.fr/merci.html">
+        <button type="submit" class="button">Envoyer</button>
+      </form>
+      <p class="small">Le premier échange est offert — une conversation pour faire le point.</p>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© EquiParental — Claire Chevalier · Téléphone : 06 71 20 44 39 · <a href="mailto:equiparental@outlook.fr">equiparental@outlook.fr</a></p>
+      <p>Retrouvez EquiParental sur <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a> · <a href="http://www.equiparental.fr" target="_blank" rel="noopener">www.equiparental.fr</a></p>
+    </div>
+  </footer>
+</body>
+</html>
